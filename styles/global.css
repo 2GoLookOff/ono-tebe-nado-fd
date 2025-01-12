@@ -28,10 +28,14 @@ blockquote {
 a {
   color: inherit;
   display: block;
+  font-style: normal;
+  text-underline-offset: 3px;
+  cursor: pointer;
 }
 
+
 img {
-  width: 98%;
+  width: 100%;
 }
 
 button {
