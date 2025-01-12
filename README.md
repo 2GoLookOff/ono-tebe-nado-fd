@@ -1,1 +1,1 @@
-https://github.com/2GoLookOff/ono-tebe-nado
+https://github.com/2GoLookOff/ono-tebe-nado-fd
