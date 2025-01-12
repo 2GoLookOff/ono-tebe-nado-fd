@@ -5,6 +5,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 90px 50px;
+  height: 293px;
 }
 
 /* .header__menu */
@@ -36,7 +37,7 @@
 
 .header__logo {
   display: flex;
-  min-width: 148px;
+  min-width: 143px;
   justify-self: center;
 }
 
