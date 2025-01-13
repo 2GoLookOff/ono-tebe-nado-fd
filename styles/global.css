@@ -33,6 +33,9 @@ a {
   cursor: pointer;
 }
 
+p {
+  font-style: normal;
+}
 
 img {
   width: 100%;
