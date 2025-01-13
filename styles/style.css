@@ -4,7 +4,6 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 90px 50px;
-  min-height: 293px;
 }
 
 .header__links-list {
@@ -34,7 +33,7 @@
 
 .header__logo {
   display: flex;
-  min-width: 143px;
+  min-width: 144px;
   justify-self: center;
 }
 
@@ -56,6 +55,9 @@
 .header__address .address-item {
   line-height: 1.3em;
 }
+
+
+
 
 .cover {
   position: relative;
@@ -126,7 +128,7 @@
   color: #ffff;
   border: 1px solid #ffff;
   width: 256px;
-  min-height: 51px;
+  padding: 12px;
   cursor: pointer;
 }
 
@@ -241,11 +243,6 @@
   width: 100%;
 }
 
-.about__text-paragraph_first {
-  margin-bottom: 24px;
-  margin-right: 5px;
-}
-
 .about__text-paragraph {
   margin-top: 24px;
 }
@@ -256,7 +253,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-top: 180px;
-  min-height: 180px;
 }
 
 .footer__menu {
