@@ -3,12 +3,13 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 90px 50px;
+  padding: 90px 50px 92px 50px;
 }
 
 .header__links-list {
   display: flex;
   gap: 33px;
+  padding-bottom:5px;
 }
 
 .header__links-list-item {
@@ -31,14 +32,10 @@
   text-decoration: underline;
 }
 
-.header__logo {
-  display: flex;
-  min-width: 144px;
-  justify-self: center;
-}
-
-.header__logo-image {
-  padding: 5px;
+.header__logo-image 
+{
+  width: 160px;
+  height: 107px;
 }
 
 .address,
@@ -49,14 +46,12 @@
 .header__address {
   justify-self: end;
   max-width: 240px;
-  line-height: 1.2em;
+  width: 100%;
 }
 
 .header__address .address-item {
-  line-height: 1.3em;
+  line-height: 1.35em;
 }
-
-
 
 
 .cover {
@@ -114,7 +109,7 @@
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
-  padding: 0 50px 50px 50px;
+  padding: 0 50px 49px 50px;
 }
 
 .cover__description-text {
@@ -131,6 +126,8 @@
   padding: 12px;
   cursor: pointer;
 }
+
+
 
 .lots {
   display: flex;
@@ -222,7 +219,7 @@
   height: 240px;
   background-color: #000;
   border-radius: 50%;
-  margin: 35px 72px auto 71px;
+  margin: 34px 72px auto 71px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,17 +231,17 @@
 
 .about__title {
   margin-top: 136px;
-  margin: 136px 0 100px 0;
+  margin: 135px 0 100px 0;
 }
 
 .about__text {
   font-size: 20px;
-  max-width: 693px;
+  max-width: 690px;
   width: 100%;
 }
 
 .about__text-paragraph {
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .footer {
@@ -252,7 +249,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  margin-top: 180px;
+  margin-top: 157px;
 }
 
 .footer__menu {
@@ -266,7 +263,7 @@
 }
 
 .footer__address .address-item {
-  line-height: 1.33em;
+  line-height: 1.35em;
 }
 
 .footer__socials {
