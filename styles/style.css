@@ -9,7 +9,7 @@
 .header__links-list {
   display: flex;
   gap: 33px;
-  padding-bottom:5px;
+  padding-bottom: 5px;
 }
 
 .header__links-list-item {
@@ -32,8 +32,7 @@
   text-decoration: underline;
 }
 
-.header__logo-image 
-{
+.header__logo-image {
   width: 160px;
   height: 107px;
 }
@@ -52,7 +51,6 @@
 .header__address .address-item {
   line-height: 1.35em;
 }
-
 
 .cover {
   position: relative;
@@ -126,8 +124,6 @@
   padding: 12px;
   cursor: pointer;
 }
-
-
 
 .lots {
   display: flex;
