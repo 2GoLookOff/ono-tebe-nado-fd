@@ -246,6 +246,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-top: 157px;
+  margin-bottom: 82px;
 }
 
 .footer__menu {
